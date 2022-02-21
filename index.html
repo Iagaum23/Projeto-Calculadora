@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Teste</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculadora">
+            <div class="telaCalculadora">
+                <input readonly id="conta" />
+                <input value="0" readonly id="textoCalculadora"/>
+            </div>
+            <div id="headerTecladoCalculadora">
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="porcentagem">%</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="limpar">CE</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="limparTudo">C</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes cantoDireito">
+                    <button id="del" >&#9003;</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="umDivPor" >1/x</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="elevado" >x²</button>
+
+                </label>
+                <label class="btnCalculadora teclasFuncoes">
+                    <button id="rQ">√</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes cantoDireito">
+                    <button style="padding-right: 16px;" id="divisao">÷</button>
+                </label>
+            </div>
+            <div id="corpoCalculadora">
+                <label class="btnCalculadora">
+                    <button id="sete" value="7">7</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="oito" value="8">8</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="nove" value="9">9</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes cantoDireito">
+                    <button id="mult" value="*">x</button>
+                </label>
+                <label class="btnCalculadora ">
+                    <button id="quatro" value="4" >4</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="cinco" value="5" >5</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="seis" value="6">6</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes cantoDireito">
+                    <button id="menos" value="-">-</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="um" value="1">1</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="dois" value="2">2</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="tres" value="3">3</button>
+                </label>
+                <label class="btnCalculadora teclasFuncoes cantoDireito">
+                    <button id="add">+</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="maisOuMenos" >+/-</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="zero" value="0">0</button>
+                </label>
+                <label class="btnCalculadora">
+                    <button id="virgula" value=",">,</button>
+                </label>
+                <label class="btnCalculadora teclaResultado cantoDireito">
+                    <button id="equal">=</button>
+                </label>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js">
+    </script>
+</html>

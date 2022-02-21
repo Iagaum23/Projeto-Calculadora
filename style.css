@@ -1,0 +1,83 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+}
+#calculadora {
+    height: 600px;
+    width: 320px;
+    margin: 5% 40%;
+}
+#conta {
+    position: absolute;
+    color:white;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 95px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.telaCalculadora {
+    background-color: #4e4b4b;
+    height: 20%;
+}
+.telaCalculadora input {
+    text-align: right;
+    position: static;
+    background-color:transparent;
+    margin-top: 80px;
+    border: none;
+    color:white;
+    font-size: 1.3rem;
+    margin-left: 45px;
+}
+#headerTecladoCalculadora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-flow: wrap;
+    margin: 0 px;
+    width: 100%;
+}
+#corpoCalculadora {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 100%;
+}
+.btnCalculadora {
+    border-bottom: 1px #b5b0b0 solid;
+    border-right: 1px #b5b0b0 solid;
+    box-sizing: border-box;
+    vertical-align: center;
+    width: 80px;
+    height: 80px;
+}
+.btnCalculadora > button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.teclasFuncoes {
+    background-color: #4e4b4b !important;
+    border-bottom: 1px #b5b0b0 solid;
+    border-top: none;
+}
+.btnCalculadora button:hover{
+    background-color:  #a8a4a450;
+}
+.btnCalculadora button:active{
+    background-color: #a8a4a4;
+}
+#corpoCalculadora > label {
+    background-color: #333;
+}
+.cantoDireito{
+    border-right: none;
+}
